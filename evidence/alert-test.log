@@ -1,0 +1,19 @@
+[ALERT] Fri Jul 24 12:29:13 PM EAT 2026: Apache service degradation / threshold test triggered.
+[STATUS] Apache stopped for alert verification.
+=== Moodle Health Check ===
+Date: Fri Jul 24 12:29:13 PM EAT 2026
+--- Service Status ---
+Apache2: DOWN
+MariaDB: OK
+Redis: OK
+--- Disk Usage ---
+Free: 8.9G (Used: 50%)
+[RECOVERY] Fri Jul 24 12:29:13 PM EAT 2026: Apache service successfully restarted and healthy.
+=== Moodle Health Check ===
+Date: Fri Jul 24 12:29:13 PM EAT 2026
+--- Service Status ---
+Apache2: OK
+MariaDB: OK
+Redis: OK
+--- Disk Usage ---
+Free: 8.9G (Used: 50%)
