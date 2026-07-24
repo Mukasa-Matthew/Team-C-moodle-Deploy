@@ -1,0 +1,6 @@
+[*] Running Moodle Environment Validation...
+[PASS] Apache2 is running
+[PASS] MariaDB is running
+[PASS] PHP 8.x is installed
+[PASS] Moodle config.php exists
+[*] Validation complete.
