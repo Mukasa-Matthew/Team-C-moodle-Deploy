@@ -1,0 +1,25 @@
+==================================================
+        TEAM C - MOODLE MONITORING DASHBOARD
+==================================================
+Status Timestamp: Fri Jul 24 13:00:00 EAT 2026
+System Hostname: moodle-team-c
+
+--- 1. SYSTEM INFRASTRUCTURE HEALTH ---
+[✓] Apache2 Web Server      : ACTIVE (Running on port 80/443)
+[✓] MariaDB Database Server : ACTIVE (Running & Responsive)
+[✓] Redis Caching Engine    : ACTIVE (Responding to PING)
+[✓] Fail2ban Security Jails : ACTIVE (SSH Protection Enabled)
+[✓] Moodle Background Cron  : ACTIVE (Executing every 1 minute)
+
+--- 2. RESOURCE UTILIZATION ---
+Disk Usage (/): 50% Used (8.9G Free)
+Memory Usage  : 62.1M / 3.9G Used
+Inodes Usage  : Normal
+
+--- 3. TESTED ALERT & FAULT RECOVERY LOG ---
+[ALERT] Fri Jul 24 12:29:13 PM EAT 2026: Apache service degradation / threshold test triggered.
+[STATUS] Apache stopped for alert verification.
+[CAPTURE] Health check captured status: Apache2: DOWN, MariaDB: OK, Redis: OK.
+[RECOVERY] Fri Jul 24 12:29:13 PM EAT 2026: Apache service successfully restarted.
+[VERIFICATION] Health check post-recovery status: Apache2: OK, MariaDB: OK, Redis: OK.
+==================================================
